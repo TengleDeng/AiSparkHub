@@ -31,6 +31,7 @@ English | [简体中文](README_zh.md)
    - Type your message in the input box at the bottom
    - Press Ctrl+Enter or click the Send button to send to all AIs
    - View responses from all AIs simultaneously
+![Multi-AI Dialog Interface](images/AiSparkHub.png)
 
 ## Configuration
 
