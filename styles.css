@@ -1,0 +1,101 @@
+.multi-ai-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.layout-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.layout-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.layout-4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.frame-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.frame-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.frame-content {
+    flex: 1;
+    overflow: hidden;
+}
+
+.frame-content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.ai-platforms-list {
+    margin-bottom: 20px;
+}
+
+.ai-platform-container {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: var(--background-secondary);
+}
+
+.ai-platform-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.delete-ai-button {
+    color: var(--text-error);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--text-error);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-ai-button:hover {
+    background-color: var(--text-error);
+    color: white;
+}
+
+.add-ai-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.add-ai-button:hover {
+    background-color: var(--interactive-accent-hover);
+}

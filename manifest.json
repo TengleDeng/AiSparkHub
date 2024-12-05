@@ -1,0 +1,9 @@
+{
+    "id": "multi-ai-dialog",
+    "name": "多AI对话",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "在Obsidian中同时打开多个AI对话窗口",
+    "author": "Tengle Deng",
+    "isDesktopOnly": false
+} 

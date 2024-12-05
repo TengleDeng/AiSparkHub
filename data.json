@@ -1,0 +1,63 @@
+{
+  "frameCount": 4,
+  "recordSettings": {
+    "enabled": true,
+    "folderPath": "🤖AI对话记录",
+    "fileName": "AI对话记录.md",
+    "template": "## {{datetime}}\n\n### 提问\n{{prompt}}\n\n### 回复\n{{response}}\n\n---\n"
+  },
+  "frames": [
+    {
+      "url": "https://doubao.com",
+      "displayName": "豆包",
+      "icon": "bot",
+      "selectors": {
+        "input": "textarea.semi-input-textarea",
+        "inputType": "textarea",
+        "send": "#flow-end-msg-send",
+        "sendType": "click",
+        "userMessage": "[data-testid='send_message']",
+        "aiResponse": "[data-testid='receive_message']"
+      }
+    },
+    {
+      "url": "https://chatgpt.com",
+      "displayName": "ChatGPT",
+      "icon": "bot",
+      "selectors": {
+        "input": "#prompt-textarea",
+        "inputType": "contenteditable",
+        "send": "button[data-testid='send-button']",
+        "sendType": "click",
+        "userMessage": ".whitespace-pre-wrap",
+        "aiResponse": ".markdown.prose"
+      }
+    },
+    {
+      "url": "https://yuanbao.tencent.com/",
+      "displayName": "元宝",
+      "icon": "bot",
+      "selectors": {
+        "input": ".ql-editor[contenteditable='true']",
+        "inputType": "contenteditable",
+        "send": "",
+        "sendType": "click",
+        "userMessage": ".hyc-content-text",
+        "aiResponse": ".agent-chat__conv--ai__speech_show"
+      }
+    },
+    {
+      "url": "https://kimi.moonshot.cn",
+      "displayName": "Kimi",
+      "icon": "bot",
+      "selectors": {
+        "input": "[data-testid='msh-chatinput-editor']",
+        "inputType": "contenteditable",
+        "send": "send-button",
+        "sendType": "click",
+        "userMessage": ".MuiTypography-root.MuiTypography-text.css-p94avn",
+        "aiResponse": ".markdown___vuBDJ"
+      }
+    }
+  ]
+}
