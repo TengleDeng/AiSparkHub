@@ -1,4 +1,4 @@
-# Multi-AI Dialog Plugin for Obsidian
+# AiSparkHub - 智燃笔记Multi-AI Dialog Plugin for Obsidian
 
 Obsidian的多AI对话插件，让您能在一个窗口中同时与多个AI服务对话。
 
