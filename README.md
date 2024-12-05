@@ -1,4 +1,4 @@
-# Multi-AI Dialog Plugin for Obsidian
+# AiSparkHub - Multi-AI Dialog Plugin for Obsidian
 
 An Obsidian plugin that allows you to chat with multiple AI services simultaneously in a single window.
 
