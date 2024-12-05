@@ -2,6 +2,8 @@
 
 An Obsidian plugin that allows you to chat with multiple AI services simultaneously in a single window.
 
+English | [简体中文](README_zh.md)
+
 ## Features
 
 - 💬 Multi-AI Chat Interface: Chat with multiple AI services (like ChatGPT, Claude, Bard, etc.) simultaneously
