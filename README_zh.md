@@ -31,6 +31,7 @@ Obsidian的多AI对话插件，让您能在一个窗口中同时与多个AI服�
    - 在底部输入框中输入您的消息
    - 按Ctrl+Enter或点击发送按钮发送给所有AI
    - 同时查看所有AI的回复
+![多AI对话界面](images/AiSparkHub.png)
 
 ## 配置
 
