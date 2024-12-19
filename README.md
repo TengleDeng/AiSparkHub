@@ -1,4 +1,4 @@
-# AiSparkHub - 多AI助手集成工具 | Multi-AI Assistant Integration Tool
+# AiSparkHub - 智燃笔记 Multi-AI Dialog Plugin for Obsidian
 
 [English](#english) | [中文说明](#chinese)
 
@@ -9,12 +9,14 @@
 
 ### Overview
 AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experience by integrating multiple AI platforms. It provides flexible ways to interact with AIs directly from your notes, allowing you to gather diverse insights and cross-validate ideas from different AI platforms simultaneously.
+![多AI对话界面](images/2.png)
 
 ### Key Features
 - **Multiple Input Methods**:
   - Send prompts directly from your notes using `Ctrl+Enter`
   - Use the floating prompt input box in the browser window
   - Input in the dedicated prompt area with larger space
+![多AI对话界面](images/2.png)
 - **Note Integration**:
   - Search and include note content in your prompts
   - Supports Obsidian's built-in search
@@ -23,6 +25,7 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
   - Chat with various AI platforms simultaneously (ChatGPT, Grok, Gemini, Perplexity, Doubao, Kimi, etc.)
   - Cross-validate ideas from different AI platforms
   - No API keys required - direct web interface integration
+![更换AI](images/3.png)
 - **Flexible Workspace**:
   - Dual monitor support: Notes on one screen, AI responses on another
   - Single monitor: Seamless integration between notes and AI interfaces
@@ -32,6 +35,10 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
   - Search and favorite prompts
   - Usage analytics with word clouds and trend charts
   - Future support for saving conversations to notes
+![历史提示词](images/4.png)
+
+![统计分析](images/5.png)
+
 
 ### Installation
 1. Open Obsidian Settings
@@ -60,13 +67,6 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
 - **Prompt History**: View, search, and reuse previous prompts
 - **Analytics**: Track your AI usage patterns
 - **Note Integration**: RAG support with built-in search
-
-![Obsidian笔记窗口](images/1.png)
-![多AI对话界面](images/2.png)
-![更换AI](images/3.png)
-![历史提示词](images/4.png)
-![统计分析](images/5.png)
-
 
 ---
 
@@ -127,7 +127,7 @@ AiSparkHub 是一个强大的 Obsidian 插件，通过集成多个 AI 平台来�
 - **使用分析**：追踪 AI 使用模式
 - **笔记集成**：支持内置搜索的 RAG 功能
 
-![多AI对话界面](images/AiSparkHub.png)
+![多AI对话界面](images/1.png)
 
 ---
 
