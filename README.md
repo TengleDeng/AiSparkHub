@@ -61,11 +61,11 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
 - **Analytics**: Track your AI usage patterns
 - **Note Integration**: RAG support with built-in search
 
-![Obsidian笔记窗口](1.png)
-![多AI对话界面](2.png)
-![更换AI](3.png)
-![历史提示词](4.png)
-![统计分析](5.png)
+![Obsidian笔记窗口](images/1.png)
+![多AI对话界面](images/2.png)
+![更换AI](images/3.png)
+![历史提示词](images/4.png)
+![统计分析](images/5.png)
 
 
 ---
