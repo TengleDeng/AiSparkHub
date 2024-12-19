@@ -16,7 +16,7 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
   - Send prompts directly from your notes using `Ctrl+Enter`
   - Use the floating prompt input box in the browser window
   - Input in the dedicated prompt area with larger space
-![多AI对话界面](images/2.png)
+![多AI对话界面](images/1.png)
 - **Note Integration**:
   - Search and include note content in your prompts
   - Supports Obsidian's built-in search
@@ -36,7 +36,6 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
   - Usage analytics with word clouds and trend charts
   - Future support for saving conversations to notes
 ![历史提示词](images/4.png)
-
 ![统计分析](images/5.png)
 
 
