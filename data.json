@@ -29,31 +29,31 @@
       "url": "https://yiyan.baidu.com/",
       "displayName": "文心一言",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://tongyi.aliyun.com/",
       "displayName": "通义千问",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://www.doubao.com/",
       "displayName": "豆包",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://yuanbao.tencent.com/",
       "displayName": "元宝",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://kimi.moonshot.cn",
       "displayName": "Kimi",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://www.perplexity.ai/",
@@ -65,25 +65,25 @@
       "url": "https://n.cn/",
       "displayName": "n",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://x.com/i/grok",
       "displayName": "Grok",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://chatglm.cn/",
       "displayName": "chatglm",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://metaso.cn/",
       "displayName": "秘塔",
       "icon": "bot",
-      "enabled": true
+      "enabled": false
     },
     {
       "url": "https://gemini.google.com/",
