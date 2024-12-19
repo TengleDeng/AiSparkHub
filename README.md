@@ -8,17 +8,30 @@
 ## English
 
 ### Overview
-AiSparkHub is a powerful Obsidian plugin that allows you to interact with multiple AI platforms simultaneously. It provides a seamless integration with various AI services without requiring API keys, making it easy to enhance your note-taking experience with AI assistance.
+AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experience by integrating multiple AI platforms. It provides flexible ways to interact with AIs directly from your notes, allowing you to gather diverse insights and cross-validate ideas from different AI platforms simultaneously.
 
 ### Key Features
-- **Multiple AI Platform Support**: Chat with various AI platforms simultaneously (ChatGPT, Grok, Gemini, Perplexity, Doubao, Kimi, etc.)
-- **No API Required**: Direct integration with AI platforms through their web interfaces
-- **Global Quick Send Prompt to AI**: Use `Ctrl+Enter` to quickly send prompt
-- **Prompt History**: Track and reuse your previous prompts
-- **Multi-Send**: Send the same prompt to multiple AI assistants at once
-- **Custom Layout**: Flexible window arrangement for better workflow
-- **Platform Selection**: Enable/disable AI platforms as needed
-- **Conversation History**: Automatically save chat history for future reference
+- **Multiple Input Methods**:
+  - Send prompts directly from your notes using `Ctrl+Enter`
+  - Use the floating prompt input box in the browser window
+  - Input in the dedicated prompt area with larger space
+- **Note Integration**:
+  - Search and include note content in your prompts
+  - Supports Obsidian's built-in search
+  - Future support for smart connections and more RAG plugins
+- **Multi-AI Support**: 
+  - Chat with various AI platforms simultaneously (ChatGPT, Grok, Gemini, Perplexity, Doubao, Kimi, etc.)
+  - Cross-validate ideas from different AI platforms
+  - No API keys required - direct web interface integration
+- **Flexible Workspace**:
+  - Dual monitor support: Notes on one screen, AI responses on another
+  - Single monitor: Seamless integration between notes and AI interfaces
+  - Auto-hiding prompt input for clean workspace
+- **Prompt Management**:
+  - Automatic prompt history recording
+  - Search and favorite prompts
+  - Usage analytics with word clouds and trend charts
+  - Future support for saving conversations to notes
 
 ### Installation
 1. Open Obsidian Settings
@@ -30,22 +43,30 @@ AiSparkHub is a powerful Obsidian plugin that allows you to interact with multip
 ### Usage Guide
 
 #### Basic Operations
-- **Open AI Panel**: Click the AiSparkHub icon in the left sidebar
-- **Quick Input**: Press `Ctrl+P` to open the central prompt input box
-- **Send to All**: Use the "Send to All" button or `Ctrl+Enter` to send your prompt to all enabled AI platforms
-- **Platform Management**: Click the gear icon to manage AI platforms
+- **From Notes**: Type your prompt in any note and press `Ctrl+Enter` to send
+- **From Browser**: Mouse over to show/hide the floating prompt input
+- **Multi-AI View**: See responses from all enabled AI platforms simultaneously
+- **Note Search**: Include relevant note content in your prompts
 
-#### Keyboard Shortcuts
-- `Ctrl+P`: Toggle central prompt input box
-- `Ctrl+Enter`: Send prompt to all enabled AI platforms
-- `Esc`: Close the central prompt input box
+#### Workspace Setup
+- **Dual Monitor**: 
+  - Primary screen: Focus on note-taking
+  - Secondary screen: View AI responses
+- **Single Monitor**: 
+  - Seamless switching between notes and AI responses
+  - Floating prompt input for quick access
 
-#### Customization
-- **Layout**: Drag and resize AI platform windows
-- **Platform Selection**: Enable/disable platforms through the settings panel
-- **History Storage**: Configure history storage location and size limits
+#### Advanced Features
+- **Prompt History**: View, search, and reuse previous prompts
+- **Analytics**: Track your AI usage patterns
+- **Note Integration**: RAG support with built-in search
 
-![多AI对话界面](images/AiSparkHub.png)
+![Obsidian笔记窗口](1.png)
+![多AI对话界面](2.png)
+![更换AI](3.png)
+![历史提示词](4.png)
+![统计分析](5.png)
+
 
 ---
 
@@ -53,17 +74,30 @@ AiSparkHub is a powerful Obsidian plugin that allows you to interact with multip
 ## 中文说明
 
 ### 概述
-AiSparkHub 是一个强大的 Obsidian 插件，让您能够同时与多个 AI 平台进行交互。它无需 API 密钥即可与各种 AI 服务集成，轻松提升您的笔记体验。
+AiSparkHub 是一个强大的 Obsidian 插件，通过集成多个 AI 平台来增强您的笔记体验。它提供了多种方式直接从笔记中与 AI 交互，让您能够同时获取多个 AI 平台的见解，交叉验证想法。
 
 ### 主要功能
-- **多平台支持**：同时与多个 AI 平台对话（支持 ChatGPT、Grok、Gemini、Perplexity、豆包、Kimi 等）
-- **无需 API**：通过网页界面直接集成各 AI 平台
-- **全局快捷访问**：使用 `Ctrl+P` 快速唤起中央提示词输入框
-- **提示词历史**：记录并重用您的历史提示词
-- **群发功能**：一键向多个 AI 助手发送相同提示词
-- **自定义布局**：灵活的窗口排列，提升工作效率
-- **平台选择**：根据需要启用/禁用 AI 平台
-- **对话历史**：自动保存聊天记录供future参考
+- **多种输入方式**：
+  - 直接在笔记中输入问题，按 `Ctrl+Enter` 发送
+  - 浏览器窗口中的悬浮提示词输入框
+  - 更大空间的专用提示词区域
+- **笔记集成**：
+  - 搜索并引用笔记内容作为提示词
+  - 支持 Obsidian 内置搜索
+  - 未来支持智能连接等更多 RAG 插件
+- **多AI支持**：
+  - 同时与多个 AI 平台对话（支持 ChatGPT、Grok、Gemini、Perplexity、豆包、Kimi 等）
+  - 交叉验证不同 AI 平台的想法
+  - 无需 API - 直接网页界面集成
+- **灵活工作空间**：
+  - 双显示器支持：一个显示器专注笔记，另一个查看 AI 回复
+  - 单显示器：笔记与 AI 界面无缝切换
+  - 自动隐藏提示词输入框保持界面整洁
+- **提示词管理**：
+  - 自动记录提示词历史
+  - 搜索和收藏提示词
+  - 使用分析（词云和趋势图）
+  - 未来支持将对话保存至笔记
 
 ### 安装方法
 1. 打开 Obsidian 设置
@@ -75,20 +109,23 @@ AiSparkHub 是一个强大的 Obsidian 插件，让您能够同时与多个 AI �
 ### 使用指南
 
 #### 基本操作
-- **打开 AI 面板**：点击左侧边栏的 AiSparkHub 图标
-- **快速输入**：按 `Ctrl+P` 打开中央提示词输入框
-- **群发消息**：使用"发送到所有"按钮或 `Ctrl+Enter` 向所有启用的 AI 平台发送提示词
-- **平台管理**：点击齿轮图标管理 AI 平台
+- **笔记中使用**：在任何笔记中输入问题，按 `Ctrl+Enter` 发送
+- **浏览器中使用**：鼠标划入显示/隐藏悬浮提示词输入框
+- **多AI视图**：同时查看所有启用的 AI 平台的回复
+- **笔记搜索**：在提示词中包含相关笔记内容
 
-#### 快捷键
-- `Ctrl+P`：切换中央提示词输入框
-- `Ctrl+Enter`：向所有启用的 AI 平台发送提示词
-- `Esc`：关闭中央提示词输入框
+#### 工作空间设置
+- **双显示器**：
+  - 主屏：专注笔记工作
+  - 副屏：查看 AI 回复
+- **单显示器**：
+  - 笔记与 AI 回复无缝切换
+  - 悬浮提示词输入框快速访问
 
-#### 自定义设置
-- **布局**：拖拽并调整 AI 平台窗口大小
-- **平台选择**：通过设置面板启用/禁用平台
-- **历史存储**：配置历史记录存储位置和大小限制
+#### 高级功能
+- **提示词历史**：查看、搜索和重用历史提示词
+- **使用分析**：追踪 AI 使用模式
+- **笔记集成**：支持内置搜索的 RAG 功能
 
 ![多AI对话界面](images/AiSparkHub.png)
 
@@ -98,9 +135,10 @@ AiSparkHub 是一个强大的 Obsidian 插件，让您能够同时与多个 AI �
 
 ### 1.0.0
 - Initial release
-- Support for multiple AI platforms
-- Global quick access with Ctrl+P
-- Conversation history management
+- Multi-AI platform support
+- Flexible prompt input methods
+- Note integration features
+- Prompt history and analytics
 - Custom layout support
 
 ## Contributing
