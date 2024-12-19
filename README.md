@@ -11,12 +11,37 @@
 AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experience by integrating multiple AI platforms. It provides flexible ways to interact with AIs directly from your notes, allowing you to gather diverse insights and cross-validate ideas from different AI platforms simultaneously.
 ![多AI对话界面](images/2.png)
 
+### Usage Guide
+
+#### Basic Operations
+- **Run AiSparkHib**:Click the bot button in the navigation bar, and it will open the AiSparkHub window (where the AI website will open side by side), as well as the sidebar (which includes history prompts, favorites, information: AI usage statistics for users, and settings).
+![多AI对话界面](images/1.png)
+- **From Notes**: Type your prompt in any note and press `Ctrl+Enter` to send
+- **From Browser**: Mouse over to show/hide the floating prompt input
+- **Multi-AI View**: See responses from all enabled AI platforms simultaneously
+- **Note Search**: Include relevant note content in your prompts
+
+#### Workspace Setup
+- **Dual Monitor**: 
+  - Primary screen: Focus on note-taking
+  - Secondary screen: View AI responses
+- **Single Monitor**: 
+  - Seamless switching between notes and AI responses
+  - Floating prompt input for quick access
+
+#### Advanced Features
+- **Prompt History**: View, search, and reuse previous prompts
+- **Analytics**: Track your AI usage patterns
+- **Note Integration**: RAG support with built-in search
+![历史提示词](images/4.png)
+![统计分析](images/5.png)
+
 ### Key Features
 - **Multiple Input Methods**:
   - Send prompts directly from your notes using `Ctrl+Enter`
   - Use the floating prompt input box in the browser window
   - Input in the dedicated prompt area with larger space
-![多AI对话界面](images/1.png)
+
 - **Note Integration**:
   - Search and include note content in your prompts
   - Supports Obsidian's built-in search
@@ -35,8 +60,6 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
   - Search and favorite prompts
   - Usage analytics with word clouds and trend charts
   - Future support for saving conversations to notes
-![历史提示词](images/4.png)
-![统计分析](images/5.png)
 
 
 ### Installation
@@ -46,27 +69,6 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
 4. Click Install
 5. Enable the plugin
 
-### Usage Guide
-
-#### Basic Operations
-- **From Notes**: Type your prompt in any note and press `Ctrl+Enter` to send
-- **From Browser**: Mouse over to show/hide the floating prompt input
-- **Multi-AI View**: See responses from all enabled AI platforms simultaneously
-- **Note Search**: Include relevant note content in your prompts
-
-#### Workspace Setup
-- **Dual Monitor**: 
-  - Primary screen: Focus on note-taking
-  - Secondary screen: View AI responses
-- **Single Monitor**: 
-  - Seamless switching between notes and AI responses
-  - Floating prompt input for quick access
-
-#### Advanced Features
-- **Prompt History**: View, search, and reuse previous prompts
-- **Analytics**: Track your AI usage patterns
-- **Note Integration**: RAG support with built-in search
-
 ---
 
 <a name="chinese"></a>
@@ -74,6 +76,30 @@ AiSparkHub is a powerful Obsidian plugin that enhances your note-taking experien
 
 ### 概述
 AiSparkHub 是一个强大的 Obsidian 插件，通过集成多个 AI 平台来增强您的笔记体验。它提供了多种方式直接从笔记中与 AI 交互，让您能够同时获取多个 AI 平台的见解，交叉验证想法。
+
+### 使用指南
+
+#### 基本操作
+- **运行AiSparkHib**：点击导航栏中的机器人按钮，将打开 AiSparkHub 窗口（AI 网站将在该窗口中并列打开），以及侧边栏（侧边栏中有历史提示词、收藏夹、信息：用户使用AI统计和设置）。
+- **笔记中使用**：在任何笔记中输入问题，按 `Ctrl+Enter` 发送
+- **浏览器中使用**：鼠标划入显示/隐藏悬浮提示词输入框
+- **多AI视图**：同时查看所有启用的 AI 平台的回复
+- **笔记搜索**：在提示词中包含相关笔记内容
+
+#### 工作空间设置
+- **双显示器**：
+  - 主屏：专注笔记工作
+  - 副屏：查看 AI 回复
+- **单显示器**：
+  - 笔记与 AI 回复无缝切换
+  - 悬浮提示词输入框快速访问
+
+#### 高级功能
+- **提示词历史**：查看、搜索和重用历史提示词
+- **使用分析**：追踪 AI 使用模式
+- **笔记集成**：支持内置搜索的 RAG 功能
+
+![多AI对话界面](images/1.png)
 
 ### 主要功能
 - **多种输入方式**：
@@ -105,40 +131,7 @@ AiSparkHub 是一个强大的 Obsidian 插件，通过集成多个 AI 平台来�
 4. 点击安装
 5. 启用插件
 
-### 使用指南
-
-#### 基本操作
-- **笔记中使用**：在任何笔记中输入问题，按 `Ctrl+Enter` 发送
-- **浏览器中使用**：鼠标划入显示/隐藏悬浮提示词输入框
-- **多AI视图**：同时查看所有启用的 AI 平台的回复
-- **笔记搜索**：在提示词中包含相关笔记内容
-
-#### 工作空间设置
-- **双显示器**：
-  - 主屏：专注笔记工作
-  - 副屏：查看 AI 回复
-- **单显示器**：
-  - 笔记与 AI 回复无缝切换
-  - 悬浮提示词输入框快速访问
-
-#### 高级功能
-- **提示词历史**：查看、搜索和重用历史提示词
-- **使用分析**：追踪 AI 使用模式
-- **笔记集成**：支持内置搜索的 RAG 功能
-
-![多AI对话界面](images/1.png)
-
 ---
-
-## Changelog
-
-### 1.0.0
-- Initial release
-- Multi-AI platform support
-- Flexible prompt input methods
-- Note integration features
-- Prompt history and analytics
-- Custom layout support
 
 ## Contributing
 
