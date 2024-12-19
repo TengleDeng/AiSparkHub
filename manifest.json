@@ -1,9 +1,10 @@
 {
-    "id": "multi-ai-dialog",
-    "name": "多AI对话",
-    "version": "0.1.0-beta",
+    "id": "ai-spark-hub",
+    "name": "AiSparkHub",
+    "version": "1.0.0",
     "minAppVersion": "0.15.0",
-    "description": "在Obsidian中同时打开多个AI对话窗口",
+    "description": "Chat with multiple AIs simultaneously(support ChatGPT,Grok,Gemini,perplexity,doubao,kimi etc.), Easily integrate your AI accounts without API, search your notes for prompts, and track your AI usage stats.",
     "author": "Tengle Deng",
-    "isDesktopOnly": false
-} 
+    "authorUrl": "",
+    "isDesktopOnly": true
+}

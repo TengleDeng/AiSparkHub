@@ -1,63 +1,106 @@
 {
-  "frameCount": 4,
-  "recordSettings": {
+  "frameCount": 3,
+  "showPromptInput": true,
+  "searchMode": "disabled",
+  "dialogRecord": {
     "enabled": true,
-    "folderPath": "🤖AI对话记录",
+    "folderPath": "对话记录",
     "fileName": "AI对话记录.md",
     "template": "## {{datetime}}\n\n### 提问\n{{prompt}}\n\n### 回复\n{{response}}\n\n---\n"
   },
+  "promptHistorySettings": {
+    "enabled": true,
+    "maxHistory": 300,
+    "autoSave": true,
+    "showTimestamp": true,
+    "showPlatform": true,
+    "useNewStorage": true,
+    "newStorageFolder": ".ai-spark-hub"
+  },
+  "promptHistory": [],
   "frames": [
-    {
-      "url": "https://doubao.com",
-      "displayName": "豆包",
-      "icon": "bot",
-      "selectors": {
-        "input": "textarea.semi-input-textarea",
-        "inputType": "textarea",
-        "send": "#flow-end-msg-send",
-        "sendType": "click",
-        "userMessage": "[data-testid='send_message']",
-        "aiResponse": "[data-testid='receive_message']"
-      }
-    },
     {
       "url": "https://chatgpt.com",
       "displayName": "ChatGPT",
       "icon": "bot",
-      "selectors": {
-        "input": "#prompt-textarea",
-        "inputType": "contenteditable",
-        "send": "button[data-testid='send-button']",
-        "sendType": "click",
-        "userMessage": ".whitespace-pre-wrap",
-        "aiResponse": ".markdown.prose"
-      }
+      "enabled": true
+    },
+    {
+      "url": "https://yiyan.baidu.com/",
+      "displayName": "文心一言",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://tongyi.aliyun.com/",
+      "displayName": "通义千问",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://www.doubao.com/",
+      "displayName": "豆包",
+      "icon": "bot",
+      "enabled": true
     },
     {
       "url": "https://yuanbao.tencent.com/",
       "displayName": "元宝",
       "icon": "bot",
-      "selectors": {
-        "input": ".ql-editor[contenteditable='true']",
-        "inputType": "contenteditable",
-        "send": "",
-        "sendType": "click",
-        "userMessage": ".hyc-content-text",
-        "aiResponse": ".agent-chat__conv--ai__speech_show"
-      }
+      "enabled": true
     },
     {
       "url": "https://kimi.moonshot.cn",
       "displayName": "Kimi",
       "icon": "bot",
-      "selectors": {
-        "input": "[data-testid='msh-chatinput-editor']",
-        "inputType": "contenteditable",
-        "send": "send-button",
-        "sendType": "click",
-        "userMessage": ".MuiTypography-root.MuiTypography-text.css-p94avn",
-        "aiResponse": ".markdown___vuBDJ"
-      }
+      "enabled": true
+    },
+    {
+      "url": "https://www.perplexity.ai/",
+      "displayName": "Perplexity",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://n.cn/",
+      "displayName": "n",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://x.com/i/grok",
+      "displayName": "Grok",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://chatglm.cn/",
+      "displayName": "chatglm",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://metaso.cn/",
+      "displayName": "秘塔",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://gemini.google.com/",
+      "displayName": "Gemini",
+      "icon": "bot",
+      "enabled": true
     }
-  ]
+  ],
+  "maxResults": 3,
+  "contextLength": 150,
+  "settings": {
+    "promptHistorySettings": {
+      "enabled": true,
+      "maxHistory": 100,
+      "autoSave": true,
+      "showTimestamp": true,
+      "showPlatform": true
+    }
+  }
 }
