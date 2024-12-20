@@ -689,15 +689,6 @@ class MultiAIDialog extends Plugin {
             (leaf) => new PromptHistoryView(leaf, this)
         );
 
-        // 添加快捷键注册
-        this.registerDomEvent(document, 'keydown', (e) => {
-            if (e.ctrlKey && e.key.toLowerCase() === 'p' && this.mainWindow) {
-                e.preventDefault();
-                e.stopPropagation();
-                this.mainWindow.webContents.send('toggle-central-prompt');
-            }
-        });
-
         console.log('MultiAIDialog plugin loaded');
     }
 
@@ -789,7 +780,11 @@ class MultiAIDialog extends Plugin {
 
     async openMultiAIView() {
         const enabledFrames = this.settings.frames.filter(frame => frame.enabled);
-        const urls = enabledFrames.map(frame => frame.url);
+        // 根据frameCount限制打开的窗口数量，确保在1-5之间
+        const frameCount = Math.min(Math.max(this.settings.frameCount || 3, 1), 5);
+        // 只取启用frames的前frameCount个
+        const limitedFrames = enabledFrames.slice(0, frameCount);
+        const urls = limitedFrames.map(frame => frame.url);
         await this.openMultiAIViewWithUrls(urls);
     }
 
@@ -967,72 +962,6 @@ class MultiAIDialog extends Plugin {
                         display: flex;
                         flex-direction: column;
                         border-right: 1px solid #ccc;
-                    }
-                    
-                    .central-prompt-container {
-                        position: fixed;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        width: 80%;
-                        height: 60%;
-                        background-color: white;
-                        border: 1px solid var(--background-modifier-border);
-                        border-radius: 8px;
-                        padding: 20px;
-                        display: none;
-                        flex-direction: column;
-                        gap: 10px;
-                        z-index: 2000;
-                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-                    }
-
-                    .central-prompt-input {
-                        flex: 1;
-                        resize: none;
-                        border: 1px solid var(--background-modifier-border);
-                        border-radius: 4px;
-                        background-color: var(--background-secondary);
-                        color: var(--text-normal);
-                        font-size: 16px;
-                        padding: 12px;
-                        outline: none;
-                    }
-
-                    .central-prompt-buttons {
-                        display: flex;
-                        justify-content: flex-end;
-                        gap: 10px;
-                    }
-
-                    .central-prompt-button {
-                        padding: 8px 16px;
-                        border-radius: 4px;
-                        border: none;
-                        cursor: pointer;
-                        font-size: 14px;
-                        transition: all 0.2s ease;
-                    }
-
-                    .central-prompt-send {
-                        background-color: var(--interactive-accent);
-                        color: var(--text-on-accent);
-                    }
-
-                    .central-prompt-cancel {
-                        background-color: var(--background-modifier-error);
-                        color: white;
-                    }
-
-                    .central-prompt-overlay {
-                        position: fixed;
-                        top: 0;
-                        left: 0;
-                        right: 0;
-                        bottom: 0;
-                        background-color: rgba(0, 0, 0, 0.5);
-                        display: none;
-                        z-index: 1999;
                     }
 
                     .prompt-container {
@@ -1334,16 +1263,7 @@ class MultiAIDialog extends Plugin {
                         </div>
                     `).join('')}
                 </div>
-                <div class="central-prompt-container" style="display: none;">
-                    <div class="central-prompt-overlay"></div>
-                    <div class="central-prompt-content">
-                        <textarea class="central-prompt-input" placeholder="输入提示词..."></textarea>
-                        <div class="central-prompt-buttons">
-                            <button class="central-prompt-send">发送到所有</button>
-                            <button class="central-prompt-cancel">取消</button>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="prompt-container">
                     <div class="resize-handle">
                         <span></span>

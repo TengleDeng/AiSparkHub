@@ -1,10 +1,10 @@
 {
-  "frameCount": 3,
+  "frameCount": 4,
   "showPromptInput": true,
   "searchMode": "disabled",
   "dialogRecord": {
     "enabled": true,
-    "folderPath": "对话记录",
+    "folderPath": "🤖AI对话记录",
     "fileName": "AI对话记录.md",
     "template": "## {{datetime}}\n\n### 提问\n{{prompt}}\n\n### 回复\n{{response}}\n\n---\n"
   },
@@ -26,34 +26,34 @@
       "enabled": true
     },
     {
-      "url": "https://yiyan.baidu.com/",
-      "displayName": "文心一言",
-      "icon": "bot",
-      "enabled": false
-    },
-    {
-      "url": "https://tongyi.aliyun.com/",
-      "displayName": "通义千问",
-      "icon": "bot",
-      "enabled": false
-    },
-    {
       "url": "https://www.doubao.com/",
       "displayName": "豆包",
       "icon": "bot",
-      "enabled": false
-    },
-    {
-      "url": "https://yuanbao.tencent.com/",
-      "displayName": "元宝",
-      "icon": "bot",
-      "enabled": false
+      "enabled": true
     },
     {
       "url": "https://kimi.moonshot.cn",
       "displayName": "Kimi",
       "icon": "bot",
-      "enabled": false
+      "enabled": true
+    },
+    {
+      "url": "https://yuanbao.tencent.com/",
+      "displayName": "元宝",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://yiyan.baidu.com/",
+      "displayName": "文心一言",
+      "icon": "bot",
+      "enabled": true
+    },
+    {
+      "url": "https://tongyi.aliyun.com/",
+      "displayName": "通义千问",
+      "icon": "bot",
+      "enabled": true
     },
     {
       "url": "https://www.perplexity.ai/",
@@ -65,25 +65,25 @@
       "url": "https://n.cn/",
       "displayName": "n",
       "icon": "bot",
-      "enabled": false
+      "enabled": true
     },
     {
       "url": "https://x.com/i/grok",
       "displayName": "Grok",
       "icon": "bot",
-      "enabled": false
+      "enabled": true
     },
     {
       "url": "https://chatglm.cn/",
       "displayName": "chatglm",
       "icon": "bot",
-      "enabled": false
+      "enabled": true
     },
     {
       "url": "https://metaso.cn/",
       "displayName": "秘塔",
       "icon": "bot",
-      "enabled": false
+      "enabled": true
     },
     {
       "url": "https://gemini.google.com/",
